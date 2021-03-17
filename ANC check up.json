@@ -1,0 +1,468 @@
+{
+    "id":"ID_303609407",
+    "text":"ANC check up",
+    "perform-physical-exam":"ANC:Fundal height;ANC:Obstetric grips;ANC:FHS;ANC:Physical deformity;",
+    "gender":"0",
+    "age_min":"14",
+    "age_max":"120",
+    "options": [{
+        "id":"ID_1838998766",
+        "text":"Menstrual history",
+        "options": [{
+            "id":"ID_455770386",
+            "text":"Last menstruation period",
+    "input-type":"date",
+    "display-or":"ଶେଷଥର କେବେ ହୋଇଥିଲା",
+    "language":"LMP"
+        }, {
+            "id":"ID_1462399310",
+            "text":"Age at menarche [enter approx. age in years]",
+    "input-type":"number",
+    "display-or":"ଶେଷଥର କେବେ ହୋଇଥିଲା",
+    "language":"Age at menarche (in years)"
+        }, {
+            "id":"ID_775728363",
+            "text":"Cycle description",
+    "display":"Describe the following aspects of your cycle",
+    "language":"%",
+            "options": [{
+                "id":"ID_365576520",
+                "text":"How many days cycle?",
+    "input-type":"number",
+    "display":"How many days is your cycle?",
+    "language":"Length of cycle:"
+            }, {
+                "id":"ID_1643038429",
+                "text":"No. of bleeding days",
+    "input-type":"number",
+    "display":"How many days does the bleeding last for?",
+    "language":"No. of menstruation days:"
+            }, {
+                "id":"ID_1034282645",
+                "text":"Amount of bleeding (in no. of pads)",
+    "display":"How many pads do you need to change in a day?",
+    "input-type":"number"
+            }, {
+                "id":"ID_1587931154",
+                "text":"Menstrual irregularities",
+    "display":"Do you experience menstrual irregularities? [describe]",
+    "language":"%",
+                "options": [{
+                    "id":"ID_387054275",
+                    "text":"Yes [Describe]",
+    "language":"Irregularities present",
+    "input-type":"text"
+                }, {
+                    "id":"ID_1304137988",
+                    "text":"No",
+    "language":"No menstrual irregularities experienced"
+                }]
+            }, {
+                "id":"ID_779464592",
+                "text":"Pain during menstruation",
+    "display":"Do you experience pain during menstruation?",
+    "language":"%",
+                "options": [{
+                    "id":"ID_1320131916",
+                    "text":"Yes",
+    "language":"%",
+                    "options": [{
+                        "id":"ID_1117597723",
+                        "text":"Mild",
+    "language":"Patient experiences mild pain during menstruation"
+                    }, {
+                        "id":"ID_1932747757",
+                        "text":"Moderate",
+    "language":"Patient experiences moderate pain during menstruation"
+                    }, {
+                        "id":"ID_834888400",
+                        "text":"Severe",
+    "language":"Patient experiences severe pain during menstruation"
+                    }]
+                }, {
+                    "id":"ID_632349634",
+                    "text":"No",
+    "language":"no pain during menstruation"
+                }]
+            }]
+        }]
+    }, {
+        "id":"ID_1662292224",
+        "text":"Obstetric history",
+        "options": [{
+            "id":"ID_209427341",
+            "text":"Gravida",
+    "input-type":"number"
+        }, {
+            "id":"ID_817419200",
+            "text":"Para",
+    "input-type":"number"
+        }, {
+            "id":"ID_1995507295",
+            "text":"Sequential details of each pregnancy",
+    "display":"Describe details of each pregnancy",
+    "language":"%",
+            "options": [{
+                "id":"ID_405939634",
+                "text":"1st pregnancy",
+                "options": [{
+                    "id":"ID_1008662178",
+                    "text":"Type of delivery",
+    "display":"Where did you have the delivery?",
+    "language":"%",
+                    "options": [{
+                        "id":"ID_576903067",
+                        "text":"Institutional delivery",
+                        "options": [{
+                            "id":"ID_1092990094",
+                            "text":"Normal"
+                        }, {
+                            "id":"ID_1773698564",
+                            "text":"LSCS"
+                        }, {
+                            "id":"ID_1799192516",
+                            "text":"Forceps"
+                        }, {
+                            "id":"ID_87017690",
+                            "text":"Vacuum"
+                        }, {
+                            "id":"ID_1818782234",
+                            "text":"Other [Describe any problems faced during delivery]",
+    "input-type":"text",
+    "language":"%"
+                        }]
+                    }, {
+                        "id":"ID_1426685050",
+                        "text":"Home delivery"
+                    }]
+                }]
+            }, {
+                "id":"ID_10596196",
+                "text":"2nd pregnancy",
+                "options": [{
+                    "id":"ID_1610102303",
+                    "text":"Type of delivery",
+    "display":"Where did you have the delivery?",
+    "language":"%",
+                    "options": [{
+                        "id":"ID_792395505",
+                        "text":"Institutional delivery",
+                        "options": [{
+                            "id":"ID_1816260222",
+                            "text":"Normal"
+                        }, {
+                            "id":"ID_835504317",
+                            "text":"LSCS"
+                        }, {
+                            "id":"ID_819738955",
+                            "text":"Forceps"
+                        }, {
+                            "id":"ID_1105470334",
+                            "text":"Vacuum"
+                        }, {
+                            "id":"ID_1893782733",
+                            "text":"Other [Describe any problems faced during delivery]",
+    "input-type":"text",
+    "language":"%"
+                        }]
+                    }, {
+                        "id":"ID_815020100",
+                        "text":"Home delivery"
+                    }]
+                }]
+            }, {
+                "id":"ID_547929493",
+                "text":"Any further deliveries [describe]",
+    "input-type":"text",
+    "language":"%"
+            }]
+        }, {
+            "id":"ID_1818269304",
+            "text":"Any H/o obstetric complication/problems",
+    "display":"Did you have any complications/problems in previous pregnancies?",
+            "options": [{
+                "id":"ID_776245990",
+                "text":"[Describe]",
+    "input-type":"text",
+    "language":"%"
+            }]
+        }]
+    }, {
+        "id":"ID_1440937568",
+        "text":"Associated symptoms",
+    "display":"Do you experience the following symptoms?",
+    "pos-condition":"c.",
+    "neg-condition":"s.",
+        "options": [{
+            "id":"ID_1280409548",
+            "text":"Morning sickness"
+        }, {
+            "id":"ID_1482796351",
+            "text":"Heartburn"
+        }, {
+            "id":"ID_1520370427",
+            "text":"Bleeding P/V"
+        }, {
+            "id":"ID_435589893",
+            "text":"Frequency of micturition",
+    "display":"How many times a day do you feel the need to urinate?",
+            "options": [{
+                "id":"ID_1967184285",
+                "text":"[Enter number]",
+    "input-type":"number",
+    "language":"a day"
+            }]
+        }, {
+            "id":"ID_619044381",
+            "text":"Retention of urine"
+        }, {
+            "id":"ID_1169787816",
+            "text":"Oedema of feet"
+        }, {
+            "id":"ID_292335879",
+            "text":"Quickening",
+    "display":"Do you feel the baby's movements?",
+            "options": [{
+                "id":"ID_255270839",
+                "text":"Felt",
+    "display":"Movements felt"
+            }, {
+                "id":"ID_409241336",
+                "text":"Still not felt in this pregnancy"
+            }, {
+                "id":"ID_1424108549",
+                "text":"Previously felt, but stopped since few days"
+            }]
+        }, {
+            "id":"ID_944258940",
+            "text":"Breathlessness",
+            "options": [{
+                "id":"ID_1516204338",
+                "text":"At rest",
+    "language":"Felt at rest"
+            }, {
+                "id":"ID_1590531741",
+                "text":"On exertion",
+    "language":"Felt on exertion"
+            }]
+        }, {
+            "id":"ID_764651295",
+            "text":"Blurring of vision"
+        }, {
+            "id":"ID_867149692",
+            "text":"Weight gained since previous visit",
+    "language":"Patient has gained weight",
+            "options": [{
+                "id":"ID_336188221",
+                "text":"[Enter amount of weight gained in kgs]",
+    "input-type":"number",
+    "language":"Amt gained in kgs",
+    "display-or":"ଓଜନ ବଢିବାର ପରିମାଣ ଲେଖ"
+            }, {
+                "id":"ID_1619018196",
+                "text":"[Enter duration of weight gain]",
+    "input-type":"duration",
+    "language":"in"
+            }]
+        }]
+    }, {
+        "id":"ID_487021972",
+        "text":"Investigations",
+    "display":"Have you gotten the following investigations?",
+        "options": [{
+            "id":"ID_863283521",
+            "text":"Hb%",
+            "options": [{
+                "id":"ID_357793057",
+                "text":"Test the patient's blood for Hb and enter the findings",
+    "language":"%",
+                "options": [{
+                    "id":"ID_955762161",
+                    "text":"Yes [Enter value]",
+    "input-type":"number",
+    "language":"%"
+                }, {
+                    "id":"ID_1180574570",
+                    "text":"No"
+                }]
+            }]
+        }, {
+            "id":"ID_1964147836",
+            "text":"Urine Pregnancy Test (if needed)",
+    "language":"Urine Pregnancy test:",
+            "options": [{
+                "id":"ID_1152062052",
+                "text":"Ask the patient to perform UPT and enter the findings",
+    "language":"%",
+                "options": [{
+                    "id":"ID_1133914334",
+                    "text":"Positive"
+                }, {
+                    "id":"ID_317399178",
+                    "text":"Negative"
+                }]
+            }]
+        }, {
+            "id":"ID_272935538",
+            "text":"Urine albumin",
+            "options": [{
+                "id":"ID_1337019824",
+                "text":"Enter findings of Urine albumin strip test",
+    "language":"%",
+                "options": [{
+                    "id":"ID_81541385",
+                    "text":"Nil"
+                }, {
+                    "id":"ID_605579906",
+                    "text":"+"
+                }, {
+                    "id":"ID_1101704667",
+                    "text":"++"
+                }, {
+                    "id":"ID_777862920",
+                    "text":"+++"
+                }, {
+                    "id":"ID_1922928577",
+                    "text":"++++"
+                }]
+            }]
+        }, {
+            "id":"ID_1504120203",
+            "text":"Urine sugar",
+            "options": [{
+                "id":"ID_932254375",
+                "text":"Enter findings of urine sugar strip test",
+    "language":"%",
+                "options": [{
+                    "id":"ID_1625630893",
+                    "text":"Nil"
+                }, {
+                    "id":"ID_1626190420",
+                    "text":"+"
+                }, {
+                    "id":"ID_827853258",
+                    "text":"++"
+                }, {
+                    "id":"ID_355583949",
+                    "text":"+++"
+                }, {
+                    "id":"ID_1823373431",
+                    "text":"++++"
+                }]
+            }]
+        }, {
+            "id":"ID_1468597926",
+            "text":"HIV",
+    "pop-up":"Only once in pregnancy",
+    "language":"%",
+            "options": [{
+                "id":"ID_1553408122",
+                "text":"Test the patient for HIV if not already tested and enter findings",
+    "language":"%",
+                "options": [{
+                    "id":"ID_1206362479",
+                    "text":"Negative",
+    "language":"Patient HIV negative"
+                }, {
+                    "id":"ID_1871280530",
+                    "text":"Positive",
+    "language":"Patient HIV positive",
+                    "options": [{
+                        "id":"ID_78336420",
+                        "text":"Refer to ART center",
+    "language":"%"
+                    }]
+                }]
+            }]
+        }, {
+            "id":"ID_1329314758",
+            "text":"Blood group and Rh",
+    "pop-up":"Perform the test if Blood group is not known",
+            "options": [{
+                "id":"ID_1597453910",
+                "text":"[Enter]",
+    "input-type":"text",
+    "language":"%"
+            }]
+        }, {
+            "id":"ID_1228156438",
+            "text":"Ultra sonography",
+    "pop-up":"Schedule dates",
+            "options": [{
+                "id":"ID_1315693582",
+                "text":"1st USG",
+    "language":"%",
+                "options": [{
+                    "id":"ID_1140159530",
+                    "text":"If patient has USG report, upload image.",
+    "language":"%",
+                    "options": [{
+                        "id":"ID_1328068632",
+                        "text":"When was it done?",
+    "input-type":"date",
+    "language":"1st USG done on"
+                    }, {
+                        "id":"ID_373102196",
+                        "text":"[Enter findings]",
+    "input-type":"text",
+    "language":"%"
+                    }]
+                }]
+            }, {
+                "id":"ID_553677048",
+                "text":"2nd USG",
+    "language":"%",
+                "options": [{
+                    "id":"ID_770184273",
+                    "text":"If patient has USG report, upload image.",
+    "language":"%",
+                    "options": [{
+                        "id":"ID_432218923",
+                        "text":"When was it done?",
+    "input-type":"date",
+    "language":"2nd USG done on"
+                    }, {
+                        "id":"ID_864086644",
+                        "text":"[Enter findings]",
+    "input-type":"text",
+    "language":"%"
+                    }]
+                }]
+            }]
+        }]
+    }, {
+        "id":"ID_1072222538",
+        "text":"Associated conditions",
+    "display":"Have you ever been diagnosed with the following conditions?",
+    "neg-condition":"s.",
+    "pos-condition":"c.",
+        "options": [{
+            "id":"ID_1884635900",
+            "text":"Hypertension"
+        }, {
+            "id":"ID_821962099",
+            "text":"Diabetes"
+        }, {
+            "id":"ID_1561790548",
+            "text":"Tuberculosis"
+        }, {
+            "id":"ID_138488781",
+            "text":"HIV"
+        }, {
+            "id":"ID_397985957",
+            "text":"Others [Describe]",
+    "input-type":"text",
+    "language":"%"
+        }]
+    }, {
+        "id":"ID_1808075791",
+        "text":"Reason for referral",
+    "display":"What is the reason(s) for referral?",
+        "options": [{
+            "id":"ID_699025095",
+            "text":"[Describe]",
+    "input-type":"text",
+    "language":"%"
+        }]
+    }]
+}
